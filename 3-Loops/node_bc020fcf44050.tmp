@@ -1,0 +1,42 @@
+// For Loops
+
+
+function divider(x){
+    console.log("****************" + x + "*******************")
+}
+
+divider("For Loops");
+
+
+for (var i = 0; i < 10; i++){
+    console.log(i)
+}
+
+// challenge
+
+divider("Count by 2")
+
+for (var i = 0; i< 21; i+=2){
+    console.log(i)
+}
+
+divider("Kenn")
+
+var name = 'Kenn';
+
+for ( var i = 0; i < name.length; i++){
+    console.log(name[i])
+}
+
+// challenge two
+
+divider("")
+
+
+
+var myName = "Alecx"
+var i = 5
+
+for (var i =4; i < myName.length; i--){
+    console.log(myName[i])
+}
